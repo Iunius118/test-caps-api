@@ -1,0 +1,29 @@
+modLoader="lowcodefml"
+loaderVersion="[43,)"
+license="Unlicense"
+
+[[mods]]
+modId="testcapsapi"
+version="${file.jarVersion}"
+displayName="Test Caps API"
+# updateJSONURL=""
+# displayURL=""
+# logoFile=""
+credits=""
+authors=""
+# displayTest=""
+description=""
+
+[[dependencies.testcapsapi]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.testcapsapi]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,1.20)"
+    ordering="NONE"
+    side="BOTH"
